@@ -47,7 +47,7 @@ The training script (`train_model.py`) includes:
 ## Web Application
 
 The Streamlit app (`app.py`) features:
-- **Model Selection**: Choose between F-1 (fine-tuned) or demo model
+- **Model Selection**: Choose between RB-1 (fine-tuned) or demo model
 - **Text Input**: Paste articles for analysis
 - **Sample Articles**: Pre-loaded examples
 - **Real-time Results**: Instant predictions with confidence scores
@@ -55,14 +55,14 @@ The Streamlit app (`app.py`) features:
 
 ## Usage
 
-1. **Load Model**: Select F-1 model for best accuracy
+1. **Load Model**: Select RB-1 model for best accuracy
 2. **Input Text**: Enter news article or use samples
 3. **Analyze**: Get prediction with confidence score
 4. **Interpret**: Review AI insights and recommendations
 
 ## Model Performance
 
-- **F-1 Model**: Fine-tuned BERT optimized for fake news detection
+- **RB-1 Model**: Fine-tuned BERT optimized for fake news detection
 - **Demo Model**: Base BERT (not recommended for production)
 - **Confidence Scoring**: Reliability indicator for predictions
 - **Visual Feedback**: Color-coded results (Green=Real, Red=Fake)
