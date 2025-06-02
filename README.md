@@ -38,6 +38,27 @@ streamlit run app.py
 
 ---
 
+## Download My Custom Model
+
+You can download the **fine-tuned BERT model (RB-1)** from Kaggle and skip training from scratch.
+
+### 🔗 [Download Custom Model from Kaggle](https://www.kaggle.com/models/dawoodarain/fake_news_model)
+
+> **Note:** Make sure you have a Kaggle account and are logged in to access the dataset.
+
+### How to Use the Model
+
+1. Download the ZIP file containing the custom model from Kaggle  
+2. Extract the ZIP contents into the `fake_news_model/` directory (create it if it doesn’t exist):
+
+```bash
+# Example shell commands (Linux/macOS/WSL)
+mkdir -p fake_news_model
+unzip /path/to/downloaded_model.zip -d fake_news_model/
+
+
+---
+
 ## Model Training
 
 The `train_model.py` script includes:
